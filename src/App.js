@@ -38,4 +38,17 @@ class Quota extends React.Component {
   }
 }
 
-
+class QuotaBox extends React.Component {
+  render() {
+    return(
+      <div className="quota-box">
+        <h3>Sorry, no time - Wirklich gute Gründe</h3>
+        <h4 className="quota-count">2 wirklich gute Gründe</h4>
+        <div className="quota-list">
+          <Quota />
+          <Quota />
+        </div>
+      </div>
+    );
+  }
+}
