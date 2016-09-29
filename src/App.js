@@ -22,16 +22,20 @@ export default App;
 
 class Quota extends React.Component {
   render() {
+    return(
     <div class="quota">
-            <p className="quota-header">Timo M.</p>
-            <p className="quota-body">
-              Die stehen schon Schlange...
-            </p>
-            <div className="quota-footer">
-              <a href="#" className="quota-footer-delete">
-                Lösche Deine Sorry, no time - extension
-              </a>
-            </div>
-          </div>
+      <p className="quota-header">Timo M.</p>
+      <p className="quota-body">
+        Die stehen schon Schlange...
+      </p>
+      <div className="quota-footer">
+        <a href="#" className="quota-footer-delete">
+          Lösche Deine Sorry, no time - extension
+        </a>
+      </div>
+    </div>
+    );
   }
 }
+
+
